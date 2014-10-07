@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-image: url(../img/background.png);
+    background-attachment: fixed;
+}
+
+h1, h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+main {
+	background-color: rgba(255, 255, 255, .7);
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 2%;
+	border-radius: 5px;
+}
+
+header {
+	background-color: #60B0FF;
+	font-size: 36px;
+	padding: 1em;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
+
+header p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 150%;
+	margin-bottom: 0;
+}
+
+footer {
+	padding-bottom: 1px;
+	padding-left: 10px;
+	border-top: 2px dashed #2CA2C8;
+	margin-right: 80%;
+	margin-left: 10px;
+}
+
+section{
+    padding-left: 1em;
+}
+
+#profile img{        
+    border: 5px solid #000000;
+    margin: 1em;
+    width:60%;
+    height:60%;
+
+}
+
+.about {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin-left: 20px;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #60B0FF;
+}

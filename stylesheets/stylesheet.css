@@ -421,10 +421,6 @@ Small Device Styles
   body {
     font-size:14px;
   }
-  #site {
-  margin: 0;
-  padding: 0;
-  }
 
   #downloads {
     display: none;
@@ -432,7 +428,6 @@ Small Device Styles
 
   .inner {
     min-width: 320px;
-    max-width: 480px;
   }
 
   #project_title {

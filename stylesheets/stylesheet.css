@@ -360,14 +360,14 @@ Full-Width Styles
 
 #profile img{
   margin-left: 65%;
+  padding-right: 10px;
   margin-top: 0%;
-  position: absolute;   
-    z-index: 999;
+  position: absolute;
+  z-index: 999;
 }
 
 #nav {
     background-color: #222;
-    margin-left: 33%;
 }
 #nav_wrapper {
     width: 960px;
@@ -379,7 +379,6 @@ Full-Width Styles
     padding: 0;
     margin: 0;
     position: relative;
-    min-width: 200px;
 }
 #nav ul li {
     display: inline-block;

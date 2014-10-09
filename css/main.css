@@ -17,7 +17,7 @@ h1, h2, h3, h4, .lead {
     font-family: 'Satisfy', Helvetica, sans-serif;
 }
 
-.header-row, .first-row, .second-row{
+.header-row, .first-row, .second-row, .third-row{
 	background-color: rgba(255,255,255,1);
 	border-radius: 5px;
 	padding-top: 5mm;

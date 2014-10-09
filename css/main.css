@@ -29,6 +29,10 @@ h1, h2, h3, h4, .lead {
 	background-color: #428BCA;
 }
 
+.first-row img {
+	border-radius: 5px;
+}
+
 nav {
 	margin-top: 1em;
 }

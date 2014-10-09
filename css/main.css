@@ -2,6 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Arimo);
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 
+header {
+	padding-left: 5mm;
+}
+
 body {
     font-family: 'Arimo', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
@@ -12,18 +16,16 @@ h1, h2, h3, h4, .lead {
     font-family: 'Libre+Baskerville', Helvetica, sans-serif;
 }
 
-.jumbotron {
-	background-color: #AAAAAA;
-}
-
-.first-row, .second-row{
+.header-row, .first-row, .second-row{
 	background-color: rgba(255,255,255,1);
 	border-radius: 5px;
-	padding: 5mm;
+	padding-top: 5mm;
+	padding-bottom: 5mm;
+	margin-bottom: 5mm;
 }
 
-.second-row {
-	margin-top: 5mm;
+.header-row {
+	background-color: #AAAAAA;
 }
 
 nav {
@@ -67,5 +69,9 @@ footer {
 
 	.lead {
 		display: inline;
+	}
+
+	.first-row, .second-row{
+		padding: 5mm;
 	}
 }

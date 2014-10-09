@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 @import url(http://fonts.googleapis.com/css?family=Arimo);
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(http://fonts.googleapis.com/css?family=Paytone+One);
 
 header {
 	padding-left: 5mm;
+	color: #FFFFFF;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, .lead {
-    font-family: 'Libre+Baskerville', Helvetica, sans-serif;
+    font-family: 'Satisfy', Helvetica, sans-serif;
 }
 
 .header-row, .first-row, .second-row{
@@ -25,7 +26,7 @@ h1, h2, h3, h4, .lead {
 }
 
 .header-row {
-	background-color: #AAAAAA;
+	background-color: #428BCA;
 }
 
 nav {
